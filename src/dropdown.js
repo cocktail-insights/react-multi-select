@@ -157,7 +157,7 @@ class Dropdown extends Component {
     }
 }
 
-const focusColor = '#78c008';
+const focusColor = '#106ff2';
 
 const styles = {
     dropdownArrow: {
@@ -197,9 +197,9 @@ const styles = {
     dropdownChildren: {
         boxSizing: 'border-box',
         bottom: 0,
-        color: '#333',
+        color: '#555',
         left: 0,
-        lineHeight: '34px',
+        lineHeight: '30px',
         paddingLeft: 10,
         paddingRight: 10,
         position: 'absolute',
@@ -218,17 +218,17 @@ const styles = {
     dropdownHeader: {
         boxSizing: 'border-box',
         backgroundColor: '#fff',
-        borderColor: '#d9d9d9 #ccc #b3b3b3',
-        borderRadius: 4,
-        borderBottomRightRadius: 4,
-        borderBottomLeftRadius: 4,
+        borderColor: '#c3cedb',
+        borderRadius: 2,
+        borderBottomRightRadius: 2,
+        borderBottomLeftRadius: 2,
         border: '1px solid #ccc',
-        color: '#333',
+        color: '#555',
         cursor: 'default',
         display: 'table',
         borderSpacing: 0,
         borderCollapse: 'separate',
-        height: 36,
+        height: 31,
         outline: 'none',
         overflow: 'hidden',
         position: 'relative',
@@ -249,15 +249,14 @@ const styles = {
         width: '16px',
     },
     panelContainer: {
-        borderBottomRightRadius: '4px',
-        borderBottomLeftRadius: '4px',
+        borderBottomRightRadius: '2px',
+        borderBottomLeftRadius: '2px',
         backgroundColor: '#fff',
         border: '1px solid #ccc',
         borderTopColor: '#e6e6e6',
-        boxShadow: '0 1px 0 rgba(0, 0, 0, 0.06)',
         boxSizing: 'border-box',
         marginTop: '-1px',
-        maxHeight: '300px',
+        maxHeight: '250px',
         position: 'absolute',
         top: '100%',
         width: '100%',

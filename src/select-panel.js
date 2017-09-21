@@ -182,13 +182,13 @@ const styles = {
         height: '30px',
         lineHeight: '24px',
         border: '1px solid',
-        borderColor: '#dee2e4',
+        borderColor: '#c3cedb',
         padding: '10px',
         width: "100%",
         outline: "none",
     },
     searchFocused: {
-        borderColor: "#78c008",
+        borderColor: "#106ff2",
     },
     searchContainer: {
         width: "100%",
